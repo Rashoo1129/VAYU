@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>VAYU | Move like Wind</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <!--added a cdn link by searching font awesome4 cdn and getting this link from https://www.bootstrapcdn.com/fontawesome/ this url*/-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <div class ="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/IMG_0048 (1).PNG" width="200px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                         <li><a href="#shoes">Shoes</a></li>
+                         <li><a href="#f1">F1</a></li>
+                         <li><a href="#review">Reviews</a></li>
+                         <li><a href="account.html">Account</a></li>
+
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                <img src="images/menu.png" class="menu-icon" onClick="menutoggle()" >
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Chase Freedom, not<br>limit.</h1>
+                    <p>Because when you run with passion, limits don't exist.</p>
+                    <a href="products.html" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/image1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+        
+        <!------------------------------ featured categories------------------------------>
+        <!--<div class="categories">
+            <div class="small-container">
+                <div class="row">
+                <div class="col-3">
+                    <img src="images/category-1.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-2.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-3 (2).jpg">
+                </div>
+            </div>
+            </div>
+        </div>-->
+        
+        <!------------------------------ featured Products------------------------------>
+        <div class="small-container">
+
+            <h2 class="title" >Latest Products</h2>
+                <div class="row">
+                    <div class="row">
+                    <div class="col-4">
+                        <a href="pink.html"><img src="images/pink.png"></a>
+                        <h4>VAYU Jersey Pink</h4>
+                        <div class="rating">
+                            <!--(before this added awesome4 cdn font link to the head)added a cdn link by searching font awesome4 icon and from the site  search the star entering the first option and getting a link of this fa-star*-->
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>Rs.499</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="black.html"><img src="images/black.png"></a>
+                        <h4>VAYU Jersey Black</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                        </div>
+                        <p>Rs.499</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="white.html"><img src="images/white.png"></a>
+                        <h4>VAYU Jersey White</h4>
+                        <div class="rating">
+                            <i class="fa fa-star-o" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>Rs.499</p>
+                    </div>
+
+
+                    <div class="col-4">
+                        <a href="1000123461.html"><img src="images/1000123461.png"></a>
+                        <h4>VAYU Black Tshirt </h4>
+                        <div class="rating">
+                            <!--(before this added awesome4 cdn font link to the head)added a cdn link by searching font awesome4 icon and from the site  search the star entering the first option and getting a link of this fa-star*-->
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>Rs.599</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="1000123683.html"><img src="images/1000123683.png"></a>
+                        <h4>VAYU tshirt</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                        </div>
+                        <p>Rs.599</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="socks.html"><img src="images/socks.png"></a>
+                        <h4>VAYU cotton socks</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>Rs.399</p>
+                    </div>
+                    <!--<div class="col-4">
+                        <a href="products-details.html"><img src="images/pink.png"></a>
+                        <h4>Lace-Up Running Shoes</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$35.00</p>
+                    </div> --> 
+                </div>
+            <!--new row for the latest product-->
+                
+                    <!--<div class="col-4">
+                        <a href="products-details.html"><img src="images/product-12.jpg"></a>
+                        <h4>Lace-Fastening white Shoes</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$21.00</p>
+                    </div>  -->
+                </div>
+            </div>
+
+        <!--------------------------`   offer   --------------------------------->
+        <div class="offer" id="f1">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <p>Exclusively Available on VAYU </p>
+                        <h1 class="f1">F1 x VAYU</h1>
+                        <small class="f1"> Buy latest collections of F1 jerseys and jackets online on Vayu ; your leisure at best prices. </small><br>
+                        <a href="f1.html" class="btn">Buy Now &#8594;</a>
+                    </div>
+                    <!-- <div class="col-2">
+                        <img src="images/offer-removebg-preview.png" class="offer-img">
+                    </div> -->
+                    
+                </div>
+            </div>
+        </div>
+
+
+        <div class="small-container" id="shoes">
+            <h2 class="title">Catagories</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <a href="running.html"><img src="images/runn.jpg"></a>
+                        <a href="running.html"><h4>Running Shoes</h4></a>
+                        <!--<div class="rating">
+                            <!--(before this added awesome4 cdn font link to the head)added a cdn link by searching font awesome4 icon and from the site  search the star entering the first option and getting a link of this fa-star*-->
+                            <!--<i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$50.00</p>-->
+                    </div>
+                    <div class="col-4">
+                        <a href="football.html"><img src="images/football.png"></a>
+                        <h4>Football Shoes</h4>
+                        <!--<div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                        </div>
+                        <p>$35.00</p>-->
+                    </div>
+                    <div class="col-4">
+                        <a href="basketball.html"><img src="images/bask.jpg"></a>
+                        <h4>Basketball Shoes</h4>
+                        <!--<div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$15.00</p>-->
+                    </div>
+                    <div class="col-4">
+                        <a href="football.html"><img src="images/snk.jpg"></a>
+                        <h4>Sneakers </h4>
+                        <!--<div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$48.00</p>-->
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/tennis.jpg"></a>
+                        <h4>Tennis Shoes </h4>
+                        <!--<div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$48.00</p>-->
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/sneakers.png"></a>
+                        <h4>Sneakers </h4>
+                        <!--<div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$48.00</p>-->
+                    </div>  
+                </div> 
+             
+            </div>
+            </div>
+        
+        
+        <!------------------------------Testimonial---------------------------------->
+        <div class="testimonial" id="review">
+            <!-- <div class="small-container"> -->
+                <div class="roww">
+                    <div class="col-3">
+                        <i class="fa fa-quote-left" ></i>
+                        <p>“I’ve been using these sports shoes for my morning runs and gym workouts for the past two weeks, and I’m seriously impressed. The grip is excellent—even on slightly wet tracks—and the cushioning feels soft yet springy. They’re super lightweight, so my legs don’t feel tired even after long sessions. I’d say they’re great for both running and general training. Just go half a size up if you have broad feet.” </p>
+                        <div class="rating"> 
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <img src="images/user-1.png">
+                        <h3>Sean Parkar</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left" ></i>
+                        <p>“These football shoes look awesome! The design is sleek and sporty—got a lot of compliments from my teammates. The studs give great traction on grass fields, and the material feels sturdy yet flexible. I’ve used them for over a month now, and they still look new. Totally worth the money if you want something that performs and looks professional.”</p>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <img src="images/user-2.png">
+                        <h3>Mike Smith</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left" ></i>
+                        <p>“These sneakers are perfect for everyday wear. The design is clean and stylish—goes well with jeans or joggers. The inner sole is comfortable, though it took a day or two to break in. I’ve worn them for full days out, and my feet didn’t feel sore at all. The only downside is they attract dust easily, but a quick wipe makes them look new again. Definitely worth the price!” </p>
+                        <div class="rating"> 
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <img src="images/user-3.png">
+                        <h3>Mabel Joe</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!----------------------------------Brands------------------------------------>
+        <!--<div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="images/logo-godrej.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-oppo.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-coca-cola.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-paypal.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-philips.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>-->
+        
+        
+        <!----------------------------------footer------------------------------------->
+        <div class ="footer">
+        <div class="container">
+            
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <!--<p>Download App for Android and ios mobile phone.</p>-->
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <br><img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/IMG_0048 (1).PNG">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+                </div>
+                <!--<div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                   <ul>
+                       <li>Coupons</li>
+                       <li>Blog Post</li>
+                       <li>Return Policy</li>
+                       <li>Join Affiliate</li>
+                    </ul>
+                </div>-->
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                   <ul>
+                       <li>Facebook</li>
+                       <li>Twitter</li>
+                       <li>Instagram</li>
+                       <li>Youtube</li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+            <hr><!--horizontal line-->
+            <p class="copyright">Copyright 2025</p>
+            
+        </div>
+    </div>
+        
+        
+        <!-----------------------------------js for toggle menu----------------------------------------------->
+        <script>
+            var menuItems=document.getElementById("MenuItems");
+            
+            MenuItems.style.maxHeight="0px";
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px"){
+                    MenuItems.style.maxHeight="200px";
+                }
+                else{
+                    MenuItems.style.maxHeight="0px";
+                }
+            }
+        </script>
+    </body>
+</html>
